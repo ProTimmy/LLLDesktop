@@ -1,0 +1,17 @@
+{
+  "name": "llldesktop",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Gabriel Timotei, 2018",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.0"
+  },
+  "dependencies": {
+    "standard": "^12.0.1"
+  }
+}

@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Lato");
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */ }
+
+nav {
+  height: 20vh;
+  background: #F76C6C;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+  nav a {
+    cursor: pointer;
+    flex: 1;
+    padding: 8.5vh;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 3vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none; }
+    nav a.active {
+      background-color: #DD6161; }
+
+main {
+  height: 80vh;
+  background-color: #E5D5E5;
+  overflow: hidden; }
+  main .column {
+    height: 80vh;
+    /* percent relative to viewport height */
+    width: 50%;
+    float: left;
+    overflow: scroll; }
+
+/*# sourceMappingURL=style.css.map */

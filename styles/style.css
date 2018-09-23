@@ -4,28 +4,31 @@
   background: transparent;
   /* make scrollbar transparent */ }
 
+body {
+  background-color: rgba(0, 0, 0, 0.9); }
+
 nav {
   height: 20vh;
-  background: #F76C6C;
   text-align: center;
-  display: flex;
-  align-items: center; }
+  display: flex; }
   nav a {
     cursor: pointer;
     flex: 1;
-    padding: 8.5vh;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Lato', sans-serif;
     font-size: 3vh;
     font-weight: bold;
     letter-spacing: 2px;
-    text-decoration: none; }
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3); }
     nav a.active {
-      background-color: #DD6161; }
+      background-color: transparent; }
 
 main {
   height: 80vh;
-  background-color: #E5D5E5;
   overflow: hidden; }
   main .column {
     height: 80vh;
